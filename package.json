@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Tests passed\"",
+  "test": "echo \"Tests passed from day-2\"",
   "build": "echo \"Build successful\""
   },
   "keywords": [],
