@@ -1,4 +1,4 @@
-name: Day-1 CI Pipeline
+name: CI Pipeline
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -27,6 +27,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build project
+      - name: Build application
         run: npm run build
-
