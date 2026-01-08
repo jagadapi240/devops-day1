@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "test": "echo \"Tests passed from day-2\"",
-  "build": "echo \"Build successful\""
+  "build": "exit 1"
   },
   "keywords": [],
   "author": "",
